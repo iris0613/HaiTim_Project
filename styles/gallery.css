@@ -71,23 +71,32 @@ color: white;
 .subscribe{
     background-color: grey;
 }
+/*footer styling*/
+.subscribe{
+    background-color: grey;
+}
 .bg-dark {
-    background-color: rgba(0, 0, 0, 0.2)!important;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    font-family: 'Roboto', sans-serif;
 }
 /*.......................*/
 
 
-.g{
-    margin-top: 10%;
-}
 
 
 a{
         text-decoration: none;
     color: #D0D0D0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em
+    font-size: 1em
 }
+
+.g{
+    margin-top: 10%;
+}
+
+
+
 
 a:hover{
         color: #626262;
