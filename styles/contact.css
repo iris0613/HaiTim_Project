@@ -58,6 +58,12 @@ color: white;
     background-image: none;
     border-color: transparent;
 }
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+
+
 /*..................*/
 
 
