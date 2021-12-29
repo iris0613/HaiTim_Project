@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+background-color: darkgray;
+line-height: 1.2;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+
+}
+
+
+/*nav styling*/
+.bg-light{
+    background-color: rgba(25, 25, 25, 0) !important;
+}
+
+.navbar a:hover{
+        color: #626262 !important;
+        transition-duration: 0.4s !important;
+}
+
+.navbar a{
+        color: white !important;
+        
+}
+
+.form-control{
+border: none;
+
+border-radius: 0;
+
+}
+.btn{
+    border-color: transparent !important;
+    border-width: 0px;
+background-color: darkgray;
+border-radius: 0px;
+color: white;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-outline-success {
+    border-width: 0px;
+    color: transparent !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+}
+/*..................*/
+
+
+a{
+        text-decoration: none;
+    color: #D0D0D0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em
+}
+
+a:hover{
+        color: #626262;
+        transition-duration: 0.8s;
+}
+
+
+h5{
+     color: #a5a5a5;
+         font-family: 'Roboto', sans-serif;
+         font-size: 0.8rem;
+}
+
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 9%;
+    margin-left: 50%;
+    font-size: 6em;
+}
+
+.search{
+    margin-left: 96%;
+    margin-top:-13%;
+    background-image:url(../images/search.png);
+    background-size: cover;
+    position:fixed;
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: transparent;
+}
+
+
+.search:hover{
+    opacity: 0.6;
+    transition-duration: 0.4s;
+}
+
+.logo{
+    position: absolute;
+    justify-content: center;
+    outline-color: white;
+    outline-width: thick;
+    
+    left: 47.5%;
+
+
+}
+
+.logo img{
+        width: 75px;
+    height: 70px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #bbbbbb;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+  background-color: #878787;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.container {
+    position: absolute;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+ margin: 10% 0% 0% 25%;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+.footer {
+   position: absolute;
+   left: 0;
+margin-top: 50%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.2);
+   color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.icons{
+    margin: 0% 0% 0% 0%;
+    flex-direction: row;
+}
+
+.icons img{
+    width: 2rem;
+    height: 2rem;
+    padding: 20px 10px;
+}
+
+.pages a{
+
+    padding: 0px 1%;
+}
+
+
+
+
