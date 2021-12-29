@@ -193,37 +193,17 @@ h1{
     padding: 30% 10% 10px 10%;
  
 }
-.footer{
-    margin-top: 6%;
-    position: absolute;
-}
-.search{
-    position: absolute;
-        height: 30px;
-    width: 30px;
-    margin-top: -21%;
-    margin-left: -85;
-}
 
-nav{
-    width: 15%;
+.bg-dark {
+    margin: 45% 0% -22% 0%;
 }
-
 }
 
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 424px) {
 
-a{
-    color: pink;
+.bg-dark {
+    margin: 88% 0% -22% 0%;
 }
 
-.search{
-      margin-top: -29%;
-      margin-left: 94%; 
 }
-
-
-}
-
-
