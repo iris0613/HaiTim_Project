@@ -4,7 +4,7 @@ body{
 /*background-image: linear-gradient(to right top, #626262, #7c7c7c, #979797, #b3b3b3, #d0d0d0);
 background-size: auto 700%;
 background-repeat: no-repeat;*/
-background-image: url(../images/about2.jpg);
+/*background-image: url(../images/about2.jpg);*/
  background-repeat:no-repeat;
   background-size: cover;
   background-position: 0px -200px; 
@@ -78,6 +78,9 @@ color: white;
     background-color: rgba(0, 0, 0, 0.5)!important;
     font-family: 'Roboto', sans-serif;
 }
+footer{
+
+}
 /*.......................*/
 
 
@@ -148,31 +151,17 @@ h1{
 
 
 .about{
-    width: 50%;
-height: 50%;
-background: rgba(196, 196, 196, 0.5);
-border: 1px solid #000000;
-box-sizing: border-box;
-position: absolute;
-margin-top: 25%;
-border-color: transparent;
+    margin-top: 30%;
 }
-
-.about p{
-font-family: Dosis;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-padding: 50px 50px 0px 50px;
+.about{
+    padding: 15%;
 }
-
 
 .quote{
     margin: 10px 10px 10px 10px;
     padding: 400px 100px 100px 10px;
     width: 25rem;
-    color: grey;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 200;
@@ -183,134 +172,22 @@ padding: 50px 50px 0px 50px;
 
 
 
-.about2{
-    width: 50%;
-height: 50%;
-background: #C4C4C4;
-border: 1px solid #000000;
-box-sizing: border-box;
-position: absolute;
-margin-top: 49.6%;
-margin-left: 50%;
-border-color: transparent;
-background: rgba(196, 196, 196, 0.5);
+.backg{
+    margin-top: -5%;
 }
 
-
-.about2 p{
-font-family: Dosis;
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 25px;
-padding: 80px 50px 0px 50px;
-}
-
-.ov{
-    position: absolute;
-    margin: 50rem 10rem 10px 5rem;
-}
-
-.ov h2{
-font-family: Roboto;
-font-style: italic;
-font-weight: 300;
-font-size: 35px;
-line-height: 28px;
-}
-
-
-.sp1{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    margin: 25% 0% 0% 50%;
-}
-
-.sp2{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    margin: 49.5% 0% 0% 0%;
-}
-
-
-.History{
-    position: absolute;
-    margin: 100% 0% 0% 0%;
-    width: 100%;
-    height: 100%;
-}
-
-.h{
-        position: absolute;
-    margin: -5% 10rem 10px 5rem;
+.backg p{
+    color: white;
+    width: 30rem;
+       /* position: absolute;*/
+    margin: -25% 10rem 10px 2rem;
     font-family: Roboto;
 font-style: italic;
 font-weight: 300;
-font-size: 35px;
+font-size: 15px;
 line-height: 28px;
 }
 
-
-.story1{
-    width: 50%;
-height: 50%;
-background: rgba(196, 196, 196, 0.5);
-border: 1px solid #000000;
-box-sizing: border-box;
-position: absolute;
-margin-top: 5%;
-border-color: transparent;
-}
-
-.story1 p{
-font-family: Dosis;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-padding: 50px 50px 0px 50px;
-}
-
-
-
-.story2{
-    width: 50%;
-height: 50%;
-background: #C4C4C4;
-border: 1px solid #000000;
-box-sizing: border-box;
-position: absolute;
-margin-top: 29.6%;
-margin-left: 50%;
-border-color: transparent;
-background: rgba(196, 196, 196, 0.5);
-}
-
-
-.story2 p{
-font-family: Dosis;
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 25px;
-padding: 80px 50px 0px 50px;
-}
-
-.his1{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    margin: 5% 0% 0% 50%;
-}
-
-.his2{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    margin: 29.5% 0% 0% 0%;
-}
 
 
 
@@ -319,17 +196,7 @@ h5{
          font-family: 'Roboto', sans-serif;
 }
 
-.footer {
-    position: absolute;
-    left: 0;
-    margin-top: 154.5%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
+
 
 .icons{
     margin: 0% 0% 0% 0%;
