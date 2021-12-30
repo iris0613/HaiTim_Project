@@ -200,6 +200,11 @@ h1{
     margin-left: 20px
 }
 
+.carousel a{
+    font-size: 17px;
+     font-family: 'Roboto', sans-serif;
+}
+
 .carousel-control-prev {
     height: 93%;
 }
@@ -241,17 +246,6 @@ h5{
 }
 
 @media screen and (max-width: 1024px) {
-.search{
-    margin-left: 96%;
-    margin-top: -19%;
-    background-image: url(../images/search.png);
-    background-size: cover;
-    position:fixed;
-    height: 35px;
-    width: 35px;
-    border: none;
-    background-color: transparent;
-}
 
 }
 

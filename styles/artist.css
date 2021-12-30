@@ -283,6 +283,13 @@ margin-top: 10%;
     margin-bottom: 10%;
 }
 
-
+@media only screen and (max-width:  1024px){
+    .artist {
+    display: flex;
+    flex-direction: column;
+    border-color: aliceblue;
+    padding: 8em 5em;
+}
+}
 
 
