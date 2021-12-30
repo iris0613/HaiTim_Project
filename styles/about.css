@@ -151,10 +151,25 @@ h1{
 
 
 .about{
-    margin-top: 30%;
-}
-.about{
+    margin-top: 15%;
     padding: 15%;
+}
+
+.about h2{
+    padding: 10% 42%;
+        font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.about p{
+        color: black;
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
 }
 
 .quote{
@@ -177,7 +192,7 @@ h1{
 }
 
 .backg p{
-    color: white;
+    color: grey;
     width: 30rem;
        /* position: absolute;*/
     margin: -25% 10rem 10px 2rem;
