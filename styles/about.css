@@ -11,6 +11,18 @@ background-repeat: no-repeat;*/
   background-color: grey;
 }
 
+.card{
+
+border-radius: 0px;
+border: 0px;
+box-shadow: 0px 11px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-img-top{
+        border-top-left-radius: 0;
+    border-top-right-radius:0;
+}
 
 
 /*nav styling*/
@@ -117,18 +129,6 @@ h1{
     height: 100%;
 }
 
-.search{
-    margin-left: 96%;
-    margin-top:-13%;
-    background-image:url(..//images/search.png);
-    background-size: cover;
-    position:fixed;
-    height: 35px;
-    width: 35px;
-    border: none;
-    background-color: transparent;
-}
-
 
 .search:hover{
     opacity: 0.6;
@@ -151,7 +151,7 @@ h1{
 
 
 .about{
-    margin-top: 15%;
+    margin-top: -10%;
     padding: 15%;
 }
 
@@ -168,22 +168,44 @@ h1{
     font-family: 'Roboto', sans-serif;
 
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 34px;
 }
 
-.quote{
-    margin: 10px 10px 10px 10px;
-    padding: 400px 100px 100px 10px;
-    width: 25rem;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 14px;
-} 
+.history{
+    margin-top: -15%;
+    padding: 15%;
+}
 
+.history h2{
+    padding: 10% 42%;
+        font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.history p{
+        color: black;
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+
+.backg p {
+    color: grey;
+    width: 30rem;
+    position: absolute;
+    margin: -25% 10rem 10px 2rem;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+}
 
 
 
@@ -191,17 +213,6 @@ h1{
     margin-top: -5%;
 }
 
-.backg p{
-    color: grey;
-    width: 30rem;
-       /* position: absolute;*/
-    margin: -25% 10rem 10px 2rem;
-    font-family: Roboto;
-font-style: italic;
-font-weight: 300;
-font-size: 15px;
-line-height: 28px;
-}
 
 
 
