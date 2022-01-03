@@ -286,7 +286,7 @@ margin-top: 10%;
 @media only screen and (max-width:  1024px){
     .artist {
     display: flex;
-    flex-direction: column;
+    flex-direction:     ;
     border-color: aliceblue;
     padding: 8em 5em;
 }
